@@ -1,0 +1,3 @@
+sofien_homepage:
+    path:     /
+    defaults: { _controller: SofienBundle:Default:index }

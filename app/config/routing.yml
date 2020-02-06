@@ -1,0 +1,30 @@
+mohamed:
+    resource: "@MohamedBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ahmed:
+    resource: "@AhmedBundle/Resources/config/routing.yml"
+    prefix:   /
+
+khalil:
+    resource: "@KhalilBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sofien:
+    resource: "@SofienBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ghaieth:
+    resource: "@GhaiethBundle/Resources/config/routing.yml"
+    prefix:   /
+
+front:
+    resource: "@FrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

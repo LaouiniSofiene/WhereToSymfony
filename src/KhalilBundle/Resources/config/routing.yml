@@ -1,0 +1,3 @@
+khalil_homepage:
+    path:     /
+    defaults: { _controller: KhalilBundle:Default:index }
